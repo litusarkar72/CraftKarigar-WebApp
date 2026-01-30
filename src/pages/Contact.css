@@ -1,0 +1,48 @@
+.contact-section {
+  border-radius: 10px;
+}
+
+.contact-img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.line-input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  padding-left: 0;
+  background: transparent;
+}
+
+.line-input:focus {
+  box-shadow: none;
+  border-bottom: 2px solid #000;
+}
+
+.contact-btn {
+  background: #000;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.info-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+}
+img.img-fluid{
+    width: 75%;
+    height: 320px;
+    opacity: 0.9;
+}
+h2.fw-bold {
+    font-weight: 700 !important;
+    font-size: 43px;
+}

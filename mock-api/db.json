@@ -1,0 +1,112 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Handmade Vase",
+      "price": 1200,
+      "image": "/images/products/litu.jpg",
+      "description": "Beautiful handmade clay vase"
+    },
+    {
+      "id": 2,
+      "title": "Noo Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 3,
+      "title": "Loen Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 4,
+      "title": "Foode Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 5,
+      "title": "Kooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 6,
+      "title": "Gooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 7,
+      "title": "Sooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 8,
+      "title": "Qooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 9,
+      "title": "Tooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 10,
+      "title": "Yooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 11,
+      "title": "Pooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    },
+    {
+      "id": 12,
+      "title": "Uooden Lamp",
+      "price": 2500,
+      "image": "/images/products/litu.jpg",
+      "description": "Eco-friendly wooden lamp"
+    }
+  ],
+  "orders": [],
+  "users": [
+    {
+      "name": "litu sarkar",
+      "email": "litusarkar446@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 1
+    },
+    {
+      "name": "litusarkarcdd",
+      "email": "litusarkar456@gmail.com",
+      "password": "123456741",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "name": "litu sarkar",
+      "email": "litusarkar446@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "id": 3
+    }
+  ]
+}

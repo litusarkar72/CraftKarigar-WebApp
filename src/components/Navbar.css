@@ -1,0 +1,125 @@
+/* ===== BASE NAVBAR ===== */
+.perfume-navbar {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+}
+
+/* Brand */
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
+
+/* Nav links */
+.nav-link {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: #000 !important;
+  padding: 0 15px;
+}
+
+.nav-link:hover {
+  color: #d8b98f !important;
+}
+
+/* Icons */
+.icon-btn {
+  font-size: 20px;
+  color: #000;
+}
+
+/* Cart badge */
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  font-size: 11px;
+}
+
+/* ===== FORCE DESKTOP HORIZONTAL ===== */
+@media (min-width: 992px) {
+  .navbar-nav {
+    flex-direction: row !important;
+    align-items: center;
+  }
+}
+
+/* ===== MOBILE MENU ===== */
+.mobile-menu {
+  background: #fff;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.mobile-menu a {
+  display: block;
+  font-size: 22px;
+  padding: 12px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  color: #d8b98f;
+}
+
+.mobile-login {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  font-size: 18px;
+}
+li.nav-item{
+  font-size: 24px;
+
+}
+ul.navbar-nav{
+  gap: 36px;
+}
+
+
+/* ===== AMAZON / MEESHO ACCOUNT DROPDOWN ===== */
+
+.account-dropdown {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  width: 190px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+/* Links */
+.account-dropdown a {
+  display: block;
+  padding: 10px 14px;
+  font-size: 14px;
+  color: #0066c0; /* Amazon blue */
+  text-decoration: none;
+}
+
+.account-dropdown a:hover {
+  background: #f5f5f5;
+  text-decoration: underline;
+}
+
+/* Logout */
+.account-dropdown button {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #d32f2f;
+  border-top: 1px solid #eee;
+  cursor: pointer;
+}
+
+.account-dropdown button:hover {
+  background: #f5f5f5;
+}
+
