@@ -14,3 +14,36 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# CraftKarigar Backend
+
+This folder contains the backend service for the CraftKarigar Web App, built using **FastAPI**.
+
+The backend is responsible for authentication, authorization, product management, database operations, and media uploads.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** FastAPI
+- **Database:** PostgreSQL
+- **ORM:** SQLAlchemy
+- **Authentication:** JWT (JSON Web Tokens)
+- **Image Storage:** Cloudinary
+- **Server:** Uvicorn
+
+---
+# 📂 Folder Structure
+
+backend/
+├── app/
+│ ├── routes/ # API route handlers
+│ ├── models/ # SQLAlchemy models
+│ ├── utils/ # Auth, security, uploads, helpers
+│ ├── database.py # DB connection & session
+│ └── main.py # FastAPI app entry
+├── requirements.txt
+└── README.md
+
+
+---
